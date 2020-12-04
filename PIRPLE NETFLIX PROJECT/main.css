@@ -1,0 +1,265 @@
+
+body{
+  width: 100%;
+  height: 100vh;
+    min-width: 320px;
+    margin: 0;
+}
+.logo{
+    float: left;
+    width: 12%;
+    height: auto;
+    fill: #f70713;
+    line-height: normal;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem ;
+    z-index: -18865;
+}
+
+/** it is good to use some text for screen readers or qr scan */
+.screen-reader-text {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+
+#button{
+
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+    border-radius: 4.5px;
+    margin-top: 1.5em;
+    direction: ltr;
+    margin-right: 2.5rem ;
+    z-index: -189856;
+
+}
+
+#button > a:link, a:visited {
+    background-color:  #e50914;;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    text-decoration: none;
+  }
+  
+  #button > a:hover, a:active {
+    background-color: red;
+  }
+/** background image style*/
+
+.image-bg{
+    opacity: 75%;
+    background-image: url("file://C:/Users/Rahima/Desktop/Pirple/PIRPLE NETFLIX PROJECT/images/fight-in-the-dark-night.jpg");
+    background-color: #cccccc;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom: 8px solid #222;
+  }
+
+  
+
+  /** / background image style*/
+
+  /** texts in the middle*/
+
+.texts{
+  position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 200px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    vertical-align: none !important;
+
+}
+
+
+
+.small-text{ 
+  color: white;
+  max-width: none;
+  text-align: center;
+  font-size: 1.2rem; 
+  padding-top: 20px;
+}  
+
+.small-text h3 {
+
+  padding-bottom: 15px;
+  max-width: 450px;
+  font-weight: 400;
+
+}
+
+/** / texts in the middle*/
+
+
+/** EMAIL AND SUBSCRIBTION BUTTONS*/
+
+.email.button{
+  text-align: center;
+  
+  
+}
+
+#horizontal-list{
+  display: inline;
+
+ 
+}
+#horizontal-list li {
+  display: inline;
+}
+
+
+.email-text{
+
+  margin-top:12px;
+  width: 450px;
+  height: 52px !important;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 4.5px;
+  z-index: -189856;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: solid 1px #000000;
+  appearance: none;
+}
+
+.btn{
+  
+  margin-top:12px;
+  background-color: #b58a8c;
+  line-height: normal !important;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 4.5px;
+  width: 250px;
+  height: 52px !important;
+  z-index: -189856;
+ vertical-align: baseline !important;
+}
+
+.btn > a:link, a:visited {
+  background-color:  #e50914;;
+  color: white;
+  text-decoration: none;
+}
+
+.btn > a:hover, a:active {
+  background-color: red;
+}
+
+/** / EMAIL AND SUBSCRIBTION BUTTONS*/
+
+.s-text{ 
+  color: white;
+  max-width: none;
+  text-align: center;
+  font-size: 1.1rem; 
+  padding-top: 10px;
+}  
+
+.s-text h3 {
+
+  padding-bottom: 18px;
+  max-width: 450px;
+  font-weight: 400;
+
+}
+
+/** Second part */
+.firstblack-background{
+  width: 100%;
+  height: 80vh;
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+   background-color: black;
+}
+
+
+/** MEDIA RULES */
+
+
+@media only screen and (max-width: 1449px) and (min-width: 950px){
+  .big-text h1{
+      font-size: 3.125rem;
+  }
+   
+  @media only screen and (max-width: 1449px) and (min-width: 950px){
+   #horizontal-list{
+     display: inline-block !important;
+   }
+    }
+  
+  @media only screen and (max-width: 949px) and (min-width: 550px){
+  .big-text h1 {
+      font-size: 3.125rem}
+  }
+  
+  
+  @media only screen and (max-width: 949px) and (min-width: 550px){
+    .texts{
+      position: relative;
+        width: 100%;
+        height: 100vh;
+        padding: 180px 0 !important;}
+    }
+    
+  
+  
+  @media only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)
+   {
+    .medium-text h2{
+      font-size: 1.625rem;}
+     }
+  
+  @media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px){
+    .medium-text h2{
+      font-size: 1.75rem !important;
+      margin: 1rem auto;}
+  }
+
+  
+  @media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px){
+    .texts{
+      position: relative;
+        width: 100%;
+        height: 100vh;
+        padding: 180px 0 !important;}
+  }
+  
+   @media only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)
+  {.bold-text h3 {
+      max-width: none;
+      padding-bottom: 20px;
+      font-size: 1.2rem;}
+  
+  }}
+  /** End of media rules*/
